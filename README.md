@@ -43,9 +43,6 @@ Example Console Output:
 ## Contributing
 Feel free to fork the repository and make improvements! If you encounter any issues or have suggestions for new features, please open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 - This app was created by Team 19076 - RoboticsTrav for the FTC community in Romania.
 - Special thanks to the FTC community for providing the data and support.
