@@ -1,6 +1,6 @@
 *.txt
 *.spec
-app.ico
+main_testing.py
 /dist
 /build
 tempCodeRunnerFile.py
