@@ -1,13 +1,13 @@
 # FTC Team Lookup
 
 ## Overview
-FTC Team Lookup is a simple Windows application (.exe) designed for FIRST Tech Challenge (FTC) teams in Romania. The app allows users to search for a team by their team number and view their rankings for the 2024-2025 season (INTO THE DEEP). The app fetches and displays detailed information such as team name, school, region, and various rankings (Region, Auto, Teleop, Endgame) both at the regional and world level.
+FTC Team Lookup is a simple Windows application (.exe) designed for FIRST Tech Challenge (FTC) teams. The app allows users to search for a team by team number and view their rankings for all seasons. The app fetches and displays detailed information such as team name, school, region, and various rankings (Region, Auto, Teleop, Endgame) at the regional and world levels.
 
-This application is built for easy access to team information and rankings for the FTC community.
+This application is built to provide easy access to team information and rankings for the FTC community.
 
 ## Features
 - **Team Lookup**: Enter a team number to view detailed information about the team.
-- **Team Details**: Displays the team name, number, school, city, and region.
+- **Team Details**: Displays the team name, number, country, region, city, and school.
 - **Rankings**: Shows regional and world rankings for the team in various categories:
   - Region Rank
   - Auto Rank
@@ -21,20 +21,22 @@ This application is built for easy access to team information and rankings for t
 3. After entering the team number, the app will display the following information:
    - Team Name
    - Team Number
-   - Team School
+   - Team Country
    - Team State
    - Team City
+   - Team School
    - Region and World Rankings (for Auto, Teleop, Endgame, and overall)
 
 Example Console Output:
 
-![image](https://github.com/user-attachments/assets/916dd361-c6ed-45de-a6d2-5ac970bec09f)
+![image](https://github.com/user-attachments/assets/c81318b5-0e55-429a-b05e-8545d0f6a930)
 
+![image](https://github.com/user-attachments/assets/2814f09b-624c-418b-9634-54167b0dcad3)
 
 ## Installation
 1. Download the latest version of the `FTC_Team_Lookup.exe` file from the releases section.
 2. Simply double-click the `.exe` file to run the application.
-3. No installation required, just execute and start searching for FTC teams!
+3. No installation is required, just execute and start searching for FTC teams!
 
 ## Requirements
 - Windows OS (Windows 10 or later recommended).
