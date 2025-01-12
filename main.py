@@ -8,7 +8,7 @@ init(autoreset=True)
 region = "RO"
 season = "2024"
 
-def get_ftc_data(team_number):
+def get_ftc_data(team_number: int):
     # URLs to search
     urls = [
         "https://ftc-events.firstinspires.org/2023/region/RO/league/NR3",
@@ -35,7 +35,7 @@ def get_ftc_data(team_number):
             pass
     return False
 
-def get_ftc_scout_data(team_number):
+def get_ftc_scout_data(team_number: int):
     url = "https://api.ftcscout.org/rest/v1"
 
     try:
