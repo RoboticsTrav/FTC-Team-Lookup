@@ -1,6 +1,7 @@
 import requests
 import asyncio
 import aiohttp
+import os, sys
 from bs4 import BeautifulSoup
 from ttkbootstrap import Style, Label, Frame, Entry, Button, Combobox, Text, StringVar
 from tkinter import END
@@ -115,6 +116,13 @@ REGIONS = {
 }
 
 # Functions
+
+if getattr(sys, 'frozen', False):
+    # If frozen, the icon is bundled with the exe in the same directory
+    icon_path = os.path.join(sys._MEIPASS, 'app.ico')
+else:
+    # Otherwise, use the local path
+    icon_path = 'app.ico'
 
 async def fetch_data(session, url):
     try:
@@ -327,7 +335,7 @@ root.resizable(False, False)
 root.geometry("700x500")
 
 # Set the icon
-root.iconbitmap("app.ico")
+root.wm_iconbitmap(icon_path)
 
 # Header
 Label(root, text="FTC Team Lookup", font=("Helvetica", 16), bootstyle="inverse-primary").pack(pady=10)
